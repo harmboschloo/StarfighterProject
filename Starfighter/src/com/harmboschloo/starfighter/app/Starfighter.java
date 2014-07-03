@@ -21,7 +21,7 @@ import com.harmboschloo.starfighter.titlescreen.TitleScreen;
 
 public class Starfighter extends LayoutPanel implements EntryPoint,
 		ValueChangeHandler<String> {
-	public static final String VERSION = "PV1-20111019";
+	public static final String VERSION = "PV1";
 
 	private static final String titleScreenToken = "";
 	private static final String onePlayerToken = "1p";
