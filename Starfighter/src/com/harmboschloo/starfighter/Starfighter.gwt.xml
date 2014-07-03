@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="sf">
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.harmboschloo.boxy.BoxyEngine" />
+
+	<source path="app" />
+	<source path="game" />
+	<source path="titlescreen" />
+
+	<entry-point class="com.harmboschloo.starfighter.app.Starfighter" />
+
+	<replace-with class="com.harmboschloo.starfighter.game.sound.SoundsImplIE">
+		<when-type-is class="com.harmboschloo.starfighter.game.sound.SoundsImpl" />
+		<any>
+			<when-property-is name="user.agent" value="ie6" />
+			<when-property-is name="user.agent" value="ie8" />
+			<when-property-is name="user.agent" value="ie9" />
+		</any>
+	</replace-with>
+
+</module>

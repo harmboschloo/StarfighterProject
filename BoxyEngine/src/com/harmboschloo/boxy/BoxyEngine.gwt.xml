@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<inherits name="com.google.gwt.user.User" />
+
+	<source path="collision" />
+	<source path="debug" />
+	<source path="graphics" />
+	<source path="math" />
+	<source path="motion" />
+	<source path="server" />
+	<source path="sound" />
+	<source path="ui" />
+	<source path="util" />
+
+	<replace-with class="com.harmboschloo.boxy.ui.CanvasPanelImplIE">
+		<when-type-is class="com.harmboschloo.boxy.ui.CanvasPanelImpl" />
+		<any>
+			<when-property-is name="user.agent" value="ie6" />
+			<when-property-is name="user.agent" value="ie8" />
+			<when-property-is name="user.agent" value="ie9" />
+		</any>
+	</replace-with>
+
+	<replace-with class="com.harmboschloo.boxy.ui.Empty.ImplIE">
+		<when-type-is class="com.harmboschloo.boxy.ui.Empty.Impl" />
+		<any>
+			<when-property-is name="user.agent" value="ie6" />
+			<when-property-is name="user.agent" value="ie8" />
+			<when-property-is name="user.agent" value="ie9" />
+		</any>
+	</replace-with>
+
+</module>

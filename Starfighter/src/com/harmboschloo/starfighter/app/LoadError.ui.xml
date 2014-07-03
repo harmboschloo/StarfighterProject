@@ -1,0 +1,18 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<g:HTML>
+		<div class="error">
+			<p>Can not load Starfighter.</p>
+			<p>
+				The game requires a browser that supports the HTML5 Canvas element.
+				Recommended are Firefox, Chrome or Internet Explorer.</p>
+			<p>
+				<a title="Follow, share, news, screens, videos at indiedb.com!"
+					href="http://www.indiedb.com/games/starfighter/">Follow, share, news, screens, videos</a>
+			</p>
+			<p>
+				<a title="More games at harmmade.com!" href="http://www.harmmade.com">More games</a>
+			</p>
+		</div>
+	</g:HTML>
+</ui:UiBinder>
