@@ -1,10 +1,10 @@
 # Starfighter
 
-Starfighter is an arcade-style 2D space combat game. In this prototype you can fly a spaceship to hunt down drones. Play by yourself or together with (or against) a friend on the same computer. And watch out for the asteroids!
+Starfighter is an arcade-style 2D space combat game. Currently you can fly a spaceship to hunt down drones. Play by yourself or together with (or against) a friend on the same computer. And watch out for the asteroids!
 
 The game runs in your browser and is made using [GWT](http://www.gwtproject.org/). You can play the game at <http://harmmade.com/starfighter/>
 
-The prototype was made in 2011 and has been put on hold since then.
+The game is still a prototype and was made in 2011. It has been put on hold since then.
 
 ## License
 
